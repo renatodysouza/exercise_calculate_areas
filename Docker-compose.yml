@@ -4,10 +4,12 @@ services:
   php:
     build: .
     restart: always
+    container_name: exerciseArea
     ports:
       - "8081:80"
     volumes:
       - ./app:/var/www/html/
+      - ./app/tests:/var
 
   
    

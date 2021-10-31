@@ -8,7 +8,7 @@ class RetangleTest extends TestCase
 
     public function testFirst()
     {
-
+       $this->assertEquals(true, true);
     }
 
 }
