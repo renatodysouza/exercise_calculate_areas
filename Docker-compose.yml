@@ -1,18 +1,13 @@
 version: '3'
 
 services:
-  web:
+  php:
     build: .
-    restart: unless-stopped
-    container_name: php_web
-    volumes:
-      - ./view/:/var/www/html/
+    restart: always
     ports:
-      - "8100:80"
-    stdin_open: true
-
-  composer:
-    image: composer:2
-    command: ["composer", "install"]
+      - "8081:80"
     volumes:
-      - ./view/:/app
+      - ./app:/var/www/html/
+
+  
+   
