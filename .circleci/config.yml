@@ -1,19 +1,20 @@
-# PHP CircleCI 2.0 configuration file
-# See: https://circleci.com/docs/2.0/language-php/
-version: 2
-
-# Define a job to be invoked later in a workflow.
-# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
+version: 2.1
+workflows:
+  testmyapp:
+    jobs:
+      - test
 jobs:
-  build:
-    working_directory: ~/var/www/html
+  dependencies:
     docker:
       - image: php:8.0.12-apache
     steps:
+      - checkout
       - run: apt update
       - run: php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" 
-      - run: apt -y install zip 
+      - run: apt -y install zip
       - run: php composer-setup.php --install-dir=/usr/local/bin --filename=composer 
-      - run: composer require --dev phpunit/phpunit ^9.5
+  test:
+    steps:
+      - checkout
       - run: ls
       - run: ./vendor/bin/phpunit ./tests
