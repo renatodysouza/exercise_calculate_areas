@@ -1,5 +1,7 @@
 <?php
-require("shape.php");
+
+require_once("Shape.php");
+require_once("Parameter.php");
 
 class Circle extends Shape 
 {

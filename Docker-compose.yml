@@ -9,7 +9,7 @@ services:
       - "8081:80"
     volumes:
       - ./app:/var/www/html/
-      - ./app/tests:/var
+      - ./app/tests:/var/www/tests
 
   
    

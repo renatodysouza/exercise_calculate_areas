@@ -1,20 +1,31 @@
 <?php
-require('../src/parameter.php');
-require('../src/retangle.php');
-
+include "./src/Retangle.php";
 use PHPUnit\Framework\TestCase;
-
 
 class RetangleTest extends TestCase
 {
-
-    function testVerifyMethodExist() {
+    /** @test */
+    function ifIdIsNumberTest() {
         $parameter = new Parameter("Test  Circle area");
-        $circleTest =  new Retangle(23, 34, $circleParameter); 
-        assertThat("method getID exist", true, $circleTest->hasMethod($getId));
+        $circleTest =  new Retangle(23, 34, $parameter);
+        $this->assertIsInt($circleTest->getId());
+    }
+
+        /** @test */
+    function shouldReturnNumberSetTest() {
+        $parameter = new Parameter("Test  Circle area");
+        $circleTest =  new Retangle(23, 34, $parameter);
+        $circleTest->setId(5);
+        $this->assertEquals(5, $circleTest->getId());
+    }
+
+    /** @test */
+    function shouldReturnAreaTest() {
+        $parameter = new Parameter("Test  Circle area");
+        $circleTest =  new Retangle(23, 34, $parameter);
+        $this->assertEquals(782, $circleTest->getArea());
     }
 
 }
-
 
 ?>

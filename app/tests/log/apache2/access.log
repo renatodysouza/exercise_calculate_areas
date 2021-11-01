@@ -1,7 +1,0 @@
-192.168.48.1 - - [01/Nov/2021:13:24:11 +0000] "POST / HTTP/1.1" 200 1118 "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
-192.168.48.1 - - [01/Nov/2021:13:24:20 +0000] "POST / HTTP/1.1" 200 1118 "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
-192.168.48.1 - - [01/Nov/2021:13:24:21 +0000] "POST / HTTP/1.1" 200 1117 "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
-192.168.48.1 - - [01/Nov/2021:13:25:06 +0000] "POST / HTTP/1.1" 200 435 "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
-192.168.48.1 - - [01/Nov/2021:13:25:32 +0000] "POST / HTTP/1.1" 200 419 "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
-192.168.48.1 - - [01/Nov/2021:13:25:34 +0000] "POST / HTTP/1.1" 200 418 "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
-192.168.48.1 - - [01/Nov/2021:13:26:33 +0000] "POST / HTTP/1.1" 200 1014 "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"

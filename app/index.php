@@ -1,6 +1,6 @@
 <?php
- require('./src/circle.php');
- require('./src/retangle.php');
+ require_once('./src/Circle.php');
+ require_once('./src/Retangle.php');
 
 ?>
 <!DOCTYPE html>
