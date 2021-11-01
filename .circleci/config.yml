@@ -9,6 +9,7 @@ jobs:
     docker:
       - image: php:8.0.12-apache
     steps:
+      - run: ls
       - run: apt update
       - run: php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" 
       - run: apt -y install zip
