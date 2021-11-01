@@ -9,5 +9,6 @@ jobs:
     docker:
       - image: php:8.0.12-apache
     steps:
+      - run: cd ..
       - run: ls
   
