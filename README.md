@@ -26,8 +26,3 @@ Concepts SOLID  like Single Responsiblity Principle, Open-Closed Principle, Depe
   - Run Phpunit
     `docker exec exerciseArea ./vendor/bin/phpunit ./tests` 
 
-
-
-
-./testsdocker exec exerciseArea composer install 
-./vendor/bin/phpunit ./tests

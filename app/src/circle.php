@@ -6,7 +6,7 @@ require_once("Parameter.php");
 class Circle extends Shape 
 {
     private const PI = 3.1416;
-    private $radius;
+    protected $radius;
     const DEFAULTVALUE = 3;
     
     public function __construct($radius, $Parameter) {
@@ -20,7 +20,6 @@ class Circle extends Shape
 
     public function getAllProperties() {   
         $properties = parent::setAllProperties();
-        $properties->setRadius($this->radius);
         $properties->setRadius($this->radius);
         return parent::getAllProperties();
     }

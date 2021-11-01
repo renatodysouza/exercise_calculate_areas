@@ -9,10 +9,6 @@
     public function __construct( int $width, int $length, $Parameter) {
       parent::__construct($Parameter, $width, $length, 2);
     }
-    
-    public function x() {
-      return 4;
-    }
   }
 
   function calculateRetangle (string $name, int $width,  int $length) {

@@ -25,7 +25,6 @@ class RetangleTest extends TestCase
         $circleTest =  new Retangle(23, 34, $parameter);
         $this->assertEquals(782, $circleTest->getArea());
     }
-
 }
 
 ?>

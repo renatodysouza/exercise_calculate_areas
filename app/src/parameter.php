@@ -3,10 +3,10 @@
 class Parameter 
 {
     public $name;
-    protected $width;
-    protected $length;
-    private $id;
-    private $radius;
+    public $width;
+    public $length;
+    public $id;
+    public $radius;
 
     public function  __construct(string $name) {
         $this->name = $name;
@@ -33,7 +33,7 @@ class Parameter
     }
 
     public function setWidth(int $width) {
-        return $this->width;
+        return $this->width = $width;
     }
 
     public function getLength() {
@@ -41,7 +41,7 @@ class Parameter
     }
 
     public function setLength(int $length) {
-        return $this->length;
+        return $this->length = $length;
     }
 
     public function getRadius() {
@@ -49,7 +49,7 @@ class Parameter
     }
 
     public function setRadius(int $radius) {
-        return $this->radius;
+        return  $this->radius = $radius;
     }
 }
 

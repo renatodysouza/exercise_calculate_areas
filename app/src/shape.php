@@ -38,15 +38,15 @@ abstract class Shape
     }
 
     public function setAllProperties() {
-      return $this->$parameter;
+      return $this->parameter;
     }
 
     public function getAllProperties() {
-      $this->$parameter->setId($this->id);
-      $this->$parameter->setWidth($this->width);
-      $this->$parameter->setLength($this->length);
-      $this->$parameter->setName($this->name);
-      return $this->$parameter;
+      $this->parameter->setId($this->id);
+      $this->parameter->setWidth($this->width ? $this->width : 0);
+      $this->parameter->setLength($this->length ? $this->length: 0);
+      $this->parameter->setName($this->name);
+      return $this->parameter;
     }
   }
 
