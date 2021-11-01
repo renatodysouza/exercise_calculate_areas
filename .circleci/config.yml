@@ -14,5 +14,5 @@ jobs:
       - run: apt -y install zip
       - run: php composer-setup.php --install-dir=/usr/local/bin --filename=composer
       - checkout
-      - run: ls
+      - run: cd /app
       - run: ./vendor/bin/phpunit ./tests
