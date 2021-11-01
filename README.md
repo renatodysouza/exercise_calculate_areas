@@ -9,7 +9,7 @@ Concepts SOLID  like Single Responsiblity Principle, Open-Closed Principle, Depe
 ##### Installation without Docker
   - install PHP 8
   - Go to app folder:
-    `cd ./app `
+    `cd ./app/public `
   - create server developement to test:
     `php -S localhost:8000`
 
