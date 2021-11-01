@@ -1,1 +1,2 @@
- ./vendor/bin/phpunit ./tests
+./testsdocker exec exerciseArea composer install 
+./vendor/bin/phpunit ./tests

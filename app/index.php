@@ -1,15 +1,7 @@
 <?php
- require('./src/parameter.php');
  require('./src/circle.php');
  require('./src/retangle.php');
-/*  $parameter = new Parameter("calculate  Circle area");
- 
- $circle = new Circle(10, $parameter);
- echo "Circle area is " . $circle->getCircleArea(); */
 
- /* $circleParameter = new Parameter("Calculating area");
- $retangle = new Retangle(23, 34, $circleParameter);
- echo nl2br("\nRetangle area is " . $retangle->getArea()); */
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,10 +27,10 @@
 
                         <p>Result:     <?php  
                                         if (isset($_POST['circle']) && is_numeric($_POST['circle']) )  {
-                                              $parameter = new Parameter("calculate  Circle area");
-                                              $circle = new Circle($_POST['circle'], $parameter);
-                                              $result =  "Circle area is " . $circle->getCircleArea();
-                                             echo  $result;
+                                              $radius = $_POST['circle'];
+                                              $circle = calculateCircle('test', $radius);
+                                              $result =  "Circle area is " . $circle; 
+                                              echo  $result;
                                         }
 
                                         if (isset($_POST['clear']))  {
@@ -64,9 +56,10 @@
                     <p>Result: <?php
                                 if (isset($_POST['width']) && is_numeric($_POST['width']) &&
                                 isset($_POST['length']) && is_numeric($_POST['length']) )  {
-                                            $retangleParameter = new Parameter("Calculating area");
-                                            $retangle = new Retangle(23, 34, $retangleParameter);
-                                            $result =  "Retangle area is  " . $retangle->getArea();
+                                            $width = $_POST['width'];
+                                            $length = $_POST['length'];
+                                            $retangle = calculateRetangle('retang1', $width, $length);
+                                            $result =  "Retangle area is  " . $retangle;
                                             echo  $result;
                                         }
 

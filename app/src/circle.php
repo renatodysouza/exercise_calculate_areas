@@ -23,4 +23,10 @@ class Circle extends Shape
         return parent::getAllProperties();
     }
 }
+
+function calculateCircle (string $name, int $radius) {
+    $parameter = new Parameter($name);
+    $circle = new Circle($radius, $parameter);
+    return $circle->getCircleArea();
+}
 ?>

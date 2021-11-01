@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"RetangleTest::testFirst":0.014}}
+{"version":1,"defects":{"Warning":6,"RetangleTest::testVerifyMethodExist":4},"times":{"RetangleTest::testFirst":0.039,"Warning":0.025,"RetangleTest::testVerifyMethodExist":0.024}}

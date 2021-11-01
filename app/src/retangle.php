@@ -1,4 +1,6 @@
 <?php
+  require('./src/parameter.php');
+  
   class Retangle extends Shape {
     const DEFAULTVALUE = 3;
 
@@ -6,5 +8,11 @@
       parent::__construct($Parameter, $width, $length, 2);
     }
   }
+
+  function calculateRetangle (string $name, int $width,  int $length) {
+    $parameter = new Parameter($name);
+    $retangle = new Retangle($width, $length, $parameter);
+    return $retangle->getArea();
+}
 
 ?>
