@@ -5,12 +5,11 @@ workflows:
       - test
 jobs:
   test:
-    working_directory: ~/center
     docker:
       - image: php:8.0.12-apache
     steps:
-      - run: ls
       - run: apt update
+      - run: ls
       - run: php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" 
       - run: apt -y install zip
       - run: php composer-setup.php --install-dir=/usr/local/bin --filename=composer
