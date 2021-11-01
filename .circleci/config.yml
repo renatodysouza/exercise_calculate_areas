@@ -2,10 +2,9 @@ version: 2.1
 workflows:
   testmyapp:
     jobs:
-      - dependencies
       - test
 jobs:
-  dependencies:
+  test:
     docker:
       - image: php:8.0.12-apache
     steps:
@@ -13,9 +12,7 @@ jobs:
       - run: apt update
       - run: php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" 
       - run: apt -y install zip
-      - run: php composer-setup.php --install-dir=/usr/local/bin --filename=composer 
-  test:
-    steps:
+      - run: php composer-setup.php --install-dir=/usr/local/bin --filename=composer
       - checkout
       - run: ls
       - run: ./vendor/bin/phpunit ./tests
