@@ -5,7 +5,7 @@ workflows:
       - test
 jobs:
   test:
-  working_directory: ~/center
+    working_directory: ~/center
     docker:
       - image: php:8.0.12-apache
     steps:
