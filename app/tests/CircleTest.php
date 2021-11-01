@@ -1,5 +1,5 @@
 <?php
-include dirname(__FILE__) . "/../src/Circle.php";
+include "./src/Circle.php";
 use PHPUnit\Framework\TestCase;
 
 class CircleTest extends TestCase

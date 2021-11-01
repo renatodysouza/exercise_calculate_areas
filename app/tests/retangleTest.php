@@ -1,5 +1,5 @@
 <?php
-include dirname(__FILE__) . "/../src/Retangle.php";
+include "./src/Retangle.php";
 use PHPUnit\Framework\TestCase;
 
 class RetangleTest extends TestCase
