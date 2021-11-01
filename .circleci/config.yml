@@ -13,6 +13,7 @@ jobs:
       - run: php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" 
       - run: apt -y install zip 
       - run: php composer-setup.php --install-dir=/usr/local/bin --filename=composer 
-      - run: cd /var/www/src
+      - run: ls
+      - run: cd ../src
       - run: composer install
       - run: ./vendor/bin/phpunit ./tests 
