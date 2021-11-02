@@ -1,6 +1,5 @@
 <?php
-/* namespace Souza\Area;
- */
+
 require_once("Shape.php");
 require_once("Parameter.php");
 

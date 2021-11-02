@@ -1,9 +1,6 @@
 <?php declare(strict_types=1);
-/* include "./src/Retangle.php"; */
-include(__DIR__ .'/../src/Retangle.php');
 use PHPUnit\Framework\TestCase;
-/* use Souza\Area\Parameter;
-use Souza\Area\Retangle; */
+include(__DIR__ .'/../src/Retangle.php');
 
 class RetangleTest extends TestCase
 {

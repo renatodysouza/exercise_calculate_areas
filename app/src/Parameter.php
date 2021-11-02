@@ -1,6 +1,5 @@
 <?php
-/* namespace Souza\Area;
- */
+
 class Parameter 
 {
     public $name;

@@ -1,6 +1,4 @@
 <?php
-/*   use Souza\Area\Circle as Circle;
-  use Souza\Area\Retangle as Retangle; */
   include  '../src/Circle.php';
   include  '../src/Retangle.php';
 ?>
