@@ -6,12 +6,9 @@ workflows:
 jobs:
   test:
     docker:
-      - image: php7.4-fpm
+      - image: php:7.4-fpm
     working_directory: ~/temp
     steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "c2:3f:9d:a0:32:cd:1a:61:af:18:d2:69:ef:bc:cd:ad"
       - checkout
       - run: apt update
       - run: ls
