@@ -1,6 +1,6 @@
 <?php
-include "./src/Circle.php";
-include(__DIR__ . './src/Circle.php');
+/* include "./src/Circle.php"; */
+include(__DIR__ .'/../src/Circle.php');
 use PHPUnit\Framework\TestCase;
 
 class CircleTest extends TestCase
