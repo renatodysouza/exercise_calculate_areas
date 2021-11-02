@@ -1,7 +1,9 @@
 <?php declare(strict_types=1);
 /* include "./src/Retangle.php"; */
-include(__DIR__ .'/../src/Retangle.php');
+/* include(__DIR__ .'/../src/Retangle.php'); */
 use PHPUnit\Framework\TestCase;
+use area\Parameter;
+use area\Retangle;
 
 class RetangleTest extends TestCase
 {

@@ -1,8 +1,10 @@
 <?php
-
-  require_once "Parameter.php";
-  require_once "Shape.php";
-  
+  namespace area;
+  use  area\Shape;
+  use  area\Parameter;
+/*   require_once "Parameter.php"; */
+/*   require_once "Shape.php";
+ */  
   class Retangle extends Shape {
     const DEFAULTVALUE = 3;
 

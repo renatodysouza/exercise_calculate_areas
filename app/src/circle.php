@@ -1,5 +1,5 @@
 <?php
-
+namespace area;
 require_once("Shape.php");
 require_once("Parameter.php");
 

@@ -1,6 +1,8 @@
 <?php declare(strict_types=1);
+use area\Circle;
+use area\Parameter;
 /* include "./src/Circle.php"; */
-include(__DIR__ .'/../src/Circle.php');
+/* include(__DIR__ .'/../src/Circle.php'); */
 use PHPUnit\Framework\TestCase;
 
 class CircleTest extends TestCase

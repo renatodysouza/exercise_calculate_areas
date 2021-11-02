@@ -1,4 +1,5 @@
 <?php
+namespace area;
 
 class Parameter 
 {
