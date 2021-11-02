@@ -11,6 +11,7 @@ services:
       - ./app/public:/var/www/html/
       - ./app/src:/var/www/src
       - ./app/tests:/var/www/tests
+      - ./app/composer.json:/var/www/composer.json
 
   
    
