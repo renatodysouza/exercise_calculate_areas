@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 /* include "./src/Circle.php"; */
 include(__DIR__ .'/../src/Circle.php');
 use PHPUnit\Framework\TestCase;

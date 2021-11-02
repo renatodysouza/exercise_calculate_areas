@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 /* include "./src/Retangle.php"; */
 include(__DIR__ .'/../src/Retangle.php');
 use PHPUnit\Framework\TestCase;
