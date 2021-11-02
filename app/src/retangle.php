@@ -1,5 +1,5 @@
 <?php
-  namespace area;
+  namespace Area;
   use  area\Shape;
   use  area\Parameter;
 /*   require_once "Parameter.php"; */

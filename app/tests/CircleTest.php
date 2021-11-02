@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
-use area\Circle;
-use area\Parameter;
+use Area\Circle;
+use Area\Parameter;
 /* include "./src/Circle.php"; */
 /* include(__DIR__ .'/../src/Circle.php'); */
 use PHPUnit\Framework\TestCase;
