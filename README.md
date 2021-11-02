@@ -1,5 +1,5 @@
 # Exercise Object-oriented Programming in Php
-
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/renatodysouza/exercise_calculate_areas)
 
 ### Introduction
 Objective this litle project is create calculate that permit calculate rectangle area and circle area.
