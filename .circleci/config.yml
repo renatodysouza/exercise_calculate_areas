@@ -11,9 +11,7 @@ jobs:
     steps:
       - checkout
       - run: apt update
-      - run: ls
       - run: php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" 
       - run: apt -y install zip
       - run: php composer-setup.php --install-dir=/usr/local/bin --filename=composer
-      - run: cd ./app/src  && ls
       - run: cd ./app && ls && composer install && composer dumpautoload -o  && ./vendor/bin/phpunit ./tests

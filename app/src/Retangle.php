@@ -1,10 +1,10 @@
 <?php
-  namespace Souza\Area;
+/*   namespace Souza\Area;
   use  Souza\Area\Shape;
-  use  Souza\Area\Parameter;
-/*   require_once "Parameter.php"; */
-/*   require_once "Shape.php";
- */  
+  use  Souza\Area\Parameter; */
+  require_once "Parameter.php";
+  require_once "Shape.php";
+  
   class Retangle extends Shape
   {
     const DEFAULTVALUE = 3;

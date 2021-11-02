@@ -1,6 +1,8 @@
 <?php
-    require_once "../src/Circle.php";
-    require_once "../src/Retangle.php";
+/*   use Souza\Area\Circle as Circle;
+  use Souza\Area\Retangle as Retangle; */
+  include  '../src/Circle.php';
+  include  '../src/Retangle.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

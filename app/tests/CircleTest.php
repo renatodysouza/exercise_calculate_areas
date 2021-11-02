@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-use Souza\Area\Circle;
-use Souza\Area\Parameter;
-/* include "./src/Circle.php"; */
-/* include(__DIR__ .'/../src/Circle.php'); */
+/* use Souza\Area\Circle;
+use Souza\Area\Parameter; */
+/* include "../src/Circle.php"; */
+include(__DIR__ .'/../src/Circle.php');
 use PHPUnit\Framework\TestCase;
 
 class CircleTest extends TestCase
