@@ -1,4 +1,6 @@
 <?php
+echo file_exists("./src/Retangle.php");
+die();
 include "./src/Retangle.php";
 use PHPUnit\Framework\TestCase;
 
