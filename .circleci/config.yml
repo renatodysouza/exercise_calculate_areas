@@ -8,7 +8,10 @@ jobs:
     docker:
       - image: php:8.0.12-apache
     working_directory: ~/temp
-    steps: 
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "c2:3f:9d:a0:32:cd:1a:61:af:18:d2:69:ef:bc:cd:ad"
       - checkout
       - run: apt update
       - run: ls
