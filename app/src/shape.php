@@ -1,6 +1,5 @@
 <?php
-namespace Area;
-
+namespace Souza\Area;
 
 abstract class Shape 
 {

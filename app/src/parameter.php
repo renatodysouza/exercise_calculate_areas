@@ -1,5 +1,5 @@
 <?php
-namespace Area;
+namespace Souza\Area;
 
 class Parameter 
 {

@@ -2,8 +2,8 @@
 /* include "./src/Retangle.php"; */
 /* include(__DIR__ .'/../src/Retangle.php'); */
 use PHPUnit\Framework\TestCase;
-use Area\Parameter;
-use Area\Retangle;
+use Souza\Area\Parameter;
+use Souza\Area\Retangle;
 
 class RetangleTest extends TestCase
 {
