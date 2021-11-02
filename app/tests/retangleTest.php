@@ -1,5 +1,5 @@
 <?php
-echo file_exists("./src/Retangle.php");
+echo file_exists("./src/Retangle.php") . 'teste123';
 die();
 include "./src/Retangle.php";
 use PHPUnit\Framework\TestCase;

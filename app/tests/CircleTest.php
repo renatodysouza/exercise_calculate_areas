@@ -1,4 +1,6 @@
 <?php
+echo file_exists("./src/Retangle.php") . 'teste123';
+die();
 include "./src/Circle.php";
 use PHPUnit\Framework\TestCase;
 
