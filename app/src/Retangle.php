@@ -1,9 +1,9 @@
 <?php
-
   require_once "Parameter.php";
   require_once "Shape.php";
   
-  class Retangle extends Shape {
+  class Retangle extends Shape
+  {
     const DEFAULTVALUE = 3;
 
     public function __construct( int $width, int $length, $Parameter) {

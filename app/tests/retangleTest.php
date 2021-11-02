@@ -1,6 +1,6 @@
-<?php
-include "./src/Retangle.php";
+<?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
+include(__DIR__ .'/../src/Retangle.php');
 
 class RetangleTest extends TestCase
 {
