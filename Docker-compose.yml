@@ -10,8 +10,7 @@ services:
     volumes:
       - ./app/public:/var/www/html/
       - ./app/src:/var/www/src
-      - ./app/:/var/www/src
-      - ./app/tests:/var/www/tests
+      - ./app/tests:/var/www/
 
   
    
